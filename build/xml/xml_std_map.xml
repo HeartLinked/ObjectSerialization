@@ -1,0 +1,12 @@
+<serialization>
+    <std::map>
+        <element_0>
+            <first val="1.1000000000000001"/>
+            <second val="233"/>
+        </element_0>
+        <element_1>
+            <first val="2.2999999999999998"/>
+            <second val="369"/>
+        </element_1>
+    </std::map>
+</serialization>

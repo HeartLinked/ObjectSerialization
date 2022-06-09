@@ -1,0 +1,6 @@
+<serialization>
+    <std::pair>
+        <first val="abc"/>
+        <second val="123"/>
+    </std::pair>
+</serialization>

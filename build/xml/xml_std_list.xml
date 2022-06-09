@@ -1,0 +1,9 @@
+<serialization>
+    <std::list>
+        <element_0 val="2"/>
+        <element_1 val="4"/>
+        <element_2 val="6"/>
+        <element_3 val="8"/>
+        <element_4 val="10"/>
+    </std::list>
+</serialization>

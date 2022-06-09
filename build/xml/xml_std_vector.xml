@@ -1,0 +1,12 @@
+<serialization>
+    <std::vector>
+        <element_0 val="1"/>
+        <element_1 val="9"/>
+        <element_2 val="1"/>
+        <element_3 val="9"/>
+        <element_4 val="0"/>
+        <element_5 val="8"/>
+        <element_6 val="1"/>
+        <element_7 val="7"/>
+    </std::vector>
+</serialization>

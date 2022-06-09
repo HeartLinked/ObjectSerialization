@@ -1,0 +1,11 @@
+<serialization>
+    <std::set>
+        <element_0 val="6"/>
+        <element_1 val="7"/>
+        <element_2 val="9"/>
+        <element_3 val="31"/>
+        <element_4 val="33"/>
+        <element_5 val="54"/>
+        <element_6 val="81"/>
+    </std::set>
+</serialization>
