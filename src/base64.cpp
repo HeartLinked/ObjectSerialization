@@ -110,5 +110,35 @@ void testbase64(){
     base64::encode("./xml/xml_bool.xml", "./base64/xml_bool_base64.txt");
     base64::decode("./base64/xml_bool_base64.txt", "./base64/de_xml_bool_base64.xml");
 
+    base64::encode("./xml/xml_int.xml", "./base64/xml_int_base64.txt");
+    base64::decode("./base64/xml_int_base64.txt", "./base64/de_xml_int_base64.xml");
+
+    base64::encode("./xml/xml_float.xml", "./base64/xml_float_base64.txt");
+    base64::decode("./base64/xml_float_base64.txt", "./base64/de_xml_float_base64.xml");
+
+    base64::encode("./xml/xml_std_vector.xml", "./base64/xml_std_vector_base64.txt");
+    base64::decode("./base64/xml_std_vector_base64.txt", "./base64/de_std_vector_base64.xml");
+
+    base64::encode("./xml/xml_std_pair.xml", "./base64/xml_std_pair_base64.txt");
+    base64::decode("./base64/xml_std_pair_base64.txt", "./base64/de_xml_std_pair_base64.xml");
+
+    base64::encode("./xml/xml_std_set.xml", "./base64/xml_std_set_base64.txt");
+    base64::decode("./base64/xml_std_set_base64.txt", "./base64/de_xml_std_set_base64.xml");
+
+    base64::encode("./xml/xml_std_string.xml", "./base64/xml_std_string_base64.txt");
+    base64::decode("./base64/xml_std_string_base64.txt", "./base64/de_xml_std_string_base64.xml");
+
+    base64::encode("./xml/xml_std_map.xml", "./base64/xml_std_map_base64.txt");
+    base64::decode("./base64/xml_std_map_base64.txt", "./base64/de_xml_std_map_base64.xml");
+
+    base64::encode("./xml/xml_std_list.xml", "./base64/xml_std_list_base64.txt");
+    base64::decode("./base64/xml_std_list_base64.txt", "./base64/de_xml_std_list_base64.xml");
+
+    base64::encode("./xml/xml_shared_ptr.xml", "./base64/xml_shared_ptr_base64.txt");
+    base64::decode("./base64/xml_shared_ptr_base64.txt", "./base64/de_xml_shared_ptr_base64.xml");
+
+    base64::encode("./xml/xml_unique_ptr.xml", "./base64/xml_unique_ptr_base64.txt");
+    base64::decode("./base64/xml_unique_ptr_base64.txt", "./base64/de_xml_unique_ptr_base64.xml");
+
     cout << "Result: Accepted in Test #1 !  Base64 mode of XML" << endl;
 }

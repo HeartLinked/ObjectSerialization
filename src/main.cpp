@@ -511,7 +511,7 @@ void test() {
     /*  std::map  */
     XMLSerialization::serialize_xml(mp, "std::map", "./xml/xml_std_map.xml");
 
-    cout << "Result: Failed in Test #3 !  xml C++ STL Container" << endl;
+    cout << "Result: Accepted in Test #3 !  xml C++ STL Container" << endl;
 
     /*
         Test #4 Smart Pointers
